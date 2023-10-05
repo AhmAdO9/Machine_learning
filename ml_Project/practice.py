@@ -11,18 +11,18 @@ import os
 import sys
 import logging 
 
-from dataclasses import dataclass
+# from dataclasses import dataclass
 
-# @dataclass
-class easy:
-    def __init__(self,x,y):
-        self.x = x
-        self.y = y
+# # @dataclass
+# class easy:
+#     def __init__(self,x,y):
+#         self.x = x
+#         self.y = y
 
 
-obj = easy(1,2)
-ob = easy(1,2)
-print()
+# obj = easy(1,2)
+# ob = easy(1,2)
+# print()
 
 
 # def error_message_details(error, sys):
@@ -92,3 +92,16 @@ import os
 #     print(f'NUMEXPR_MAX_THREADS is set to {numexpr_max_threads}')
 # else:
 #     print('NUMEXPR_MAX_THREADS is not set.')
+
+# file_name = os.path.dirname("../ml_Project/artifacts/yolo.py")
+
+# os.makedirs(file_name, exist_ok=True)
+
+
+data = {
+    "a":1,
+    "b":2
+}
+
+d_list = list(data.keys())[1]
+print(d_list)
