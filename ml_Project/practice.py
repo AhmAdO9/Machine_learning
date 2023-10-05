@@ -11,6 +11,18 @@ import os
 import sys
 import logging 
 
+from dataclasses import dataclass
+
+# @dataclass
+class easy:
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+
+
+obj = easy(1,2)
+ob = easy(1,2)
+print()
 
 
 # def error_message_details(error, sys):
@@ -70,13 +82,13 @@ import logging
 import os
 
 # Set NUMEXPR_MAX_THREADS to your desired value
-os.environ['NUMEXPR_MAX_THREADS'] = '12'
+# os.environ['NUMEXPR_MAX_THREADS'] = '12'
 
 
 # Check the value of NUMEXPR_MAX_THREADS
-numexpr_max_threads = os.environ.get('NUMEXPR_MAX_THREADS')
+# numexpr_max_threads = os.environ.get('NUMEXPR_MAX_THREADS')
 
-if numexpr_max_threads is not None:
-    print(f'NUMEXPR_MAX_THREADS is set to {numexpr_max_threads}')
-else:
-    print('NUMEXPR_MAX_THREADS is not set.')
+# if numexpr_max_threads is not None:
+#     print(f'NUMEXPR_MAX_THREADS is set to {numexpr_max_threads}')
+# else:
+#     print('NUMEXPR_MAX_THREADS is not set.')
