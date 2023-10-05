@@ -33,17 +33,43 @@ class ModelTrainer:
             X_train, y_train, X_test, y_test = (
                 train_array[:,:-1],
                 train_array[:,-1],
-                test_array[:len(train_array),:-1],
-                test_array[:len(train_array),-1]
+                test_array[:,:-1],
+                test_array[:,-1]
             )
+            
+
             models = {
-                "Linear Regression": LinearRegression(),
-                "Lasso":Lasso(),
-                "Ridge":Ridge(),
                 "Decision Tree": DecisionTreeRegressor(),
                 "Random Forest Regressor": RandomForestRegressor(),
-                "AdaBoost Regressor": AdaBoostRegressor()
+                "Linear Regression": LinearRegression(),
+                "AdaBoost Regressor": AdaBoostRegressor(),
+                "Lasso":Lasso(),
+                "Ridge":Ridge()
             }
+
+            # params={
+            #     "Decision Tree": {
+            #         'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
+            #         # 'splitter':['best','random'],
+            #         # 'max_features':['sqrt','log2'],
+            #     },
+            #     "Random Forest":{
+            #         # 'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
+                 
+            #         # 'max_features':['sqrt','log2',None],
+            #         'n_estimators': [8,16,32,64,128,256]
+
+            #     },
+
+            #     "Linear Regression":{},
+
+            #     "AdaBoost Regressor":{
+            #         'learning_rate':[.1,.01,0.5,.001],
+            #         # 'loss':['linear','square','exponential'],
+            #         'n_estimators': [8,16,32,64,128,256]
+            #     }
+                
+            # }
 
             model_report:dict = evaluate_model(X_train=X_train, y_train=y_train,X_test=X_test, y_test=y_test, models=models)
 

@@ -98,10 +98,20 @@ import os
 # os.makedirs(file_name, exist_ok=True)
 
 
+# data = {
+#     "a":1,
+#     "b":2
+# }
+
+# d_list = list(data.keys())[1]
+# print(d_list)
+
+def s(a,b):
+    print(a,b)
+
+
 data = {
     "a":1,
     "b":2
 }
-
-d_list = list(data.keys())[1]
-print(d_list)
+(s(**data))
