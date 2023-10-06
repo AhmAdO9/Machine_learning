@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from logger import logging
+from src.Cnn_Classifier.logger import logging
 
 project_name = "Cnn_Classifier"
 
@@ -20,6 +20,7 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
+    "templates/index.html"
 
 
 ]
