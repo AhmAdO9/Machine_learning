@@ -106,12 +106,25 @@ import os
 # d_list = list(data.keys())[1]
 # print(d_list)
 
-def s(a,b):
-    print(a,b)
+# def s(a,b):
+#     print(a,b)
 
 
-data = {
-    "a":1,
-    "b":2
-}
-(s(**data))
+# data = {
+#     "a":1,
+#     "b":2
+# }
+# (s(**data))
+
+# def hello():
+#     return 'yo'
+
+# x = hello()
+
+# print(x)
+from pathlib import Path
+model_path=Path("artifacts/model.pkl")
+
+preprocessor_path=Path(r"C:\Users\91962\Desktop\Machine_learning\ml_Project\artifacts\preprocessor.pkl")
+
+print(model_path.exists())

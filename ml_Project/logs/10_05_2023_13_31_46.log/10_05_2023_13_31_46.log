@@ -1,2 +1,0 @@
-[ 2023-10-05 13:31:47,783 ] 24 root - INFO - Entered the data ingestion component.
-[ 2023-10-05 13:31:47,784 ] 11 root - INFO - Error occured in pyton script name [src/components/data_ingestion.py] line number [26] error message [[Errno 2] No such file or directory: '../data/stud.csv']
