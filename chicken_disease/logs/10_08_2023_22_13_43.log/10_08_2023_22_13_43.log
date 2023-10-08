@@ -1,0 +1,8 @@
+[ 2023-10-08 22:30:15,798 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 22:30:15,800 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 22:30:15,800 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 22:30:22,464 ] 10 root - INFO - Exception in python script C:\Users\91962\AppData\Local\Temp\ipykernel_6716\1155636569.py, line 8, error_message: a bytes-like object is required, not 'str'
+[ 2023-10-08 22:31:40,771 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 22:31:40,772 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 22:31:40,772 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 22:31:47,059 ] 10 root - INFO - Exception in python script C:\Users\91962\AppData\Local\Temp\ipykernel_6716\1155636569.py, line 8, error_message: a bytes-like object is required, not 'str'
