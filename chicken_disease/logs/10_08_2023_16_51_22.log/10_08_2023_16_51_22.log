@@ -1,0 +1,17 @@
+[ 2023-10-08 16:51:27,549 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 16:51:27,552 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 16:51:27,553 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 16:51:27,553 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/prepare_callbacks'), WindowsPath('artifacts/prepare_callbacks/tensorboard_log_dir')]
+[ 2023-10-08 16:51:27,554 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/prepare_callbacks'), WindowsPath('artifacts/prepare_callbacks/tensorboard_log_dir')]
+[ 2023-10-08 16:51:27,641 ] 10 root - INFO - Exception in python script C:\Users\91962\AppData\Local\Temp\ipykernel_25160\1493824444.py, line 5, error_message: 'WindowsPath' object has no attribute 'endswith'
+[ 2023-10-08 16:51:54,057 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 16:51:54,060 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 16:51:54,060 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 16:51:54,060 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/prepare_callbacks'), WindowsPath('artifacts/prepare_callbacks/tensorboard_log_dir')]
+[ 2023-10-08 16:51:54,061 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/prepare_callbacks'), WindowsPath('artifacts/prepare_callbacks/tensorboard_log_dir')]
+[ 2023-10-08 16:51:54,061 ] 10 root - INFO - Exception in python script C:\Users\91962\AppData\Local\Temp\ipykernel_25160\1493824444.py, line 5, error_message: 'WindowsPath' object has no attribute 'endswith'
+[ 2023-10-08 16:53:24,006 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 16:53:24,009 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 16:53:24,010 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 16:53:24,010 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/prepare_callbacks'), WindowsPath('artifacts/prepare_callbacks/tensorboard_log_dir')]
+[ 2023-10-08 16:53:24,011 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/prepare_callbacks'), WindowsPath('artifacts/prepare_callbacks/tensorboard_log_dir')]
