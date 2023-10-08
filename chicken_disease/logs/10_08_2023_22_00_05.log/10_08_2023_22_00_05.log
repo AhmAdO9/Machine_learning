@@ -1,0 +1,5 @@
+[ 2023-10-08 22:00:08,628 ] 11 root - INFO - >>>>>>>>stage Data Ingestion stage started <<<<<<<<
+[ 2023-10-08 22:00:08,630 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 22:00:08,631 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 22:00:08,632 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 22:00:08,633 ] 29 root - INFO - Creating directory at: ['artifacts/data_ingestion']

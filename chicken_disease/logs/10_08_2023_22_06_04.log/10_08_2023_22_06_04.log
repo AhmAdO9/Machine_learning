@@ -1,0 +1,7 @@
+[ 2023-10-08 22:06:06,877 ] 11 root - INFO - >>>>>>>>stage Data Ingestion stage started <<<<<<<<
+[ 2023-10-08 22:06:06,879 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 22:06:06,880 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 22:06:06,881 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 22:06:06,881 ] 29 root - INFO - Creating directory at: ['artifacts/data_ingestion']
+[ 2023-10-08 22:06:06,881 ] 27 root - INFO - File already exists of size: 6656
+[ 2023-10-08 22:06:06,887 ] 10 root - INFO - Exception in python script main.py, line 13, error_message: File is not a zip file

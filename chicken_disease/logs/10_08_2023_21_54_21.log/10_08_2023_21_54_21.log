@@ -1,0 +1,4 @@
+[ 2023-10-08 21:54:25,279 ] 11 root - INFO - >>>>>>>>stage Data Ingestion stage started <<<<<<<<
+[ 2023-10-08 21:54:25,281 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 21:54:25,282 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 21:54:25,283 ] 10 root - INFO - Exception in python script main.py, line 13, error_message: Argument path_to_directories of type <class 'str'> to <function create_directories at 0x00000169F4124AF0> does not match annotation type <class 'list'>

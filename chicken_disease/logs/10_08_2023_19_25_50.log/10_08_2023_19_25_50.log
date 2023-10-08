@@ -1,0 +1,31 @@
+[ 2023-10-08 21:30:01,368 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 21:30:01,369 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 21:30:46,962 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 21:30:46,964 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 21:30:46,964 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 21:31:47,376 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 21:31:47,377 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 21:31:47,378 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 21:31:47,378 ] 29 root - INFO - Creating directory at: ['artifacts/prepare_callbacks']
+[ 2023-10-08 21:32:57,934 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 21:32:57,935 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 21:32:57,935 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 21:32:57,935 ] 29 root - INFO - Creating directory at: ['artifacts/prepare_callbacks']
+[ 2023-10-08 21:32:57,936 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/training')]
+[ 2023-10-08 21:33:29,556 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 21:33:29,557 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 21:33:29,558 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 21:33:29,558 ] 29 root - INFO - Creating directory at: ['artifacts/prepare_callbacks']
+[ 2023-10-08 21:33:29,558 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/training')]
+[ 2023-10-08 21:36:37,972 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 21:36:37,973 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 21:36:37,973 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 21:36:37,974 ] 29 root - INFO - Creating directory at: ['artifacts/prepare_callbacks']
+[ 2023-10-08 21:36:37,974 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/training')]
+[ 2023-10-08 21:36:58,483 ] 804 tensorflow - INFO - Assets written to: artifacts\prepare_callbacks\checkpoint_dir\assets
+[ 2023-10-08 21:41:54,025 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 21:41:54,026 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 21:41:54,026 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 21:41:54,027 ] 29 root - INFO - Creating directory at: ['artifacts/prepare_callbacks']
+[ 2023-10-08 21:41:54,027 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/training')]
+[ 2023-10-08 21:42:14,668 ] 804 tensorflow - INFO - Assets written to: artifacts\prepare_callbacks\checkpoint_dir\assets

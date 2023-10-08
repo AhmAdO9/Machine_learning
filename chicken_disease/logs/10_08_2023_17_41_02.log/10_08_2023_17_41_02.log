@@ -2,3 +2,11 @@
 [ 2023-10-08 17:41:08,746 ] 16 root - INFO - yaml file: params.yaml loaded successfully
 [ 2023-10-08 17:41:08,747 ] 29 root - INFO - Creating directory at: ['artifacts']
 [ 2023-10-08 17:41:08,749 ] 29 root - INFO - Creating directory at: ['artifacts/prepare_callbacks']
+[ 2023-10-08 19:18:18,767 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 19:18:18,768 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 19:18:18,769 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 19:18:18,769 ] 29 root - INFO - Creating directory at: ['artifacts/prepare_callbacks']
+[ 2023-10-08 19:18:48,595 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 19:18:48,596 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 19:18:48,596 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 19:18:48,597 ] 29 root - INFO - Creating directory at: ['artifacts/prepare_callbacks']

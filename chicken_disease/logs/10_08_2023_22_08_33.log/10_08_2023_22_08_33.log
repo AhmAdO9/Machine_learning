@@ -1,0 +1,28 @@
+[ 2023-10-08 22:08:35,894 ] 11 root - INFO - >>>>>>>>stage Data Ingestion stage started <<<<<<<<
+[ 2023-10-08 22:08:35,896 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 22:08:35,897 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 22:08:35,898 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 22:08:35,898 ] 29 root - INFO - Creating directory at: ['artifacts/data_ingestion']
+[ 2023-10-08 22:08:35,898 ] 27 root - INFO - File already exists of size: 11345
+[ 2023-10-08 22:08:36,065 ] 14 root - INFO - >>>>>>>> stage Data Ingestion stage completed <<<<<<<<<<< 
+
+x=============x
+[ 2023-10-08 22:08:36,065 ] 22 root - INFO - >>>>>>>>stage Prepare base model started <<<<<<<<
+[ 2023-10-08 22:08:36,068 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 22:08:36,069 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 22:08:36,069 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 22:08:36,069 ] 29 root - INFO - Creating directory at: ['artifacts/prepare_base_model']
+[ 2023-10-08 22:08:36,494 ] 359 tensorflow - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+[ 2023-10-08 22:08:36,672 ] 25 root - INFO - >>>>>>>> stage Prepare base model completed <<<<<<<<<<< 
+
+x=============x
+[ 2023-10-08 22:08:36,672 ] 33 root - INFO - >>>>>>>>stage training started <<<<<<<<
+[ 2023-10-08 22:08:36,675 ] 16 root - INFO - yaml file: config\config.yaml loaded successfully
+[ 2023-10-08 22:08:36,676 ] 16 root - INFO - yaml file: params.yaml loaded successfully
+[ 2023-10-08 22:08:36,676 ] 29 root - INFO - Creating directory at: ['artifacts']
+[ 2023-10-08 22:08:36,677 ] 29 root - INFO - Creating directory at: ['artifacts/prepare_callbacks']
+[ 2023-10-08 22:08:36,677 ] 29 root - INFO - Creating directory at: [WindowsPath('artifacts/training')]
+[ 2023-10-08 22:08:57,388 ] 804 tensorflow - INFO - Assets written to: artifacts\prepare_callbacks\checkpoint_dir\assets
+[ 2023-10-08 22:08:57,470 ] 36 root - INFO - >>>>>>>> stage training completed <<<<<<<<<<< 
+
+x=============x
