@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 data = b'{"\xe6\x9d\xb1\xe4\xba\xac"}'
 data1 = b'\xff\xfeh\x00e\x00l\x00l\x00o\x00'
 # with open('file.txt', 'wb') as file:
@@ -27,3 +28,16 @@ text = "hello"
 import base64
 s = base64.b64encode(data1)
 t = text.encode('utf-16')
+=======
+import sys
+
+try:
+    x = 1/0
+except Exception as e:
+
+    type,value, tb = sys.exc_info()
+
+print(type)
+print(value)
+print(tb.tb_frame.f_code.co_filename)
+>>>>>>> d6c8ec6eb314978b44e6798bbd49de35a6b52581

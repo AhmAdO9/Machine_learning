@@ -41,7 +41,11 @@ for filepath in list_of_files:
         logging.info(f"Creating directory: {filedir} for the filename: {filename}")
 
     if not (os.path.exists(filepath)) or (os.path.getsize(filepath)==0):
+<<<<<<< HEAD
         with open(filepath, 'w') as file:
+=======
+        with open(filename, 'w') as file:
+>>>>>>> d6c8ec6eb314978b44e6798bbd49de35a6b52581
             pass
             logging.info(f"Creating file: {filename}")
 
