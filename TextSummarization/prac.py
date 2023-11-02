@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-data = b'{"\xe6\x9d\xb1\xe4\xba\xac"}'
-data1 = b'\xff\xfeh\x00e\x00l\x00l\x00o\x00'
+# data = b'{"\xe6\x9d\xb1\xe4\xba\xac"}'
+# data1 = b'\xff\xfeh\x00e\x00l\x00l\x00o\x00'
 # with open('file.txt', 'wb') as file:
 #     file.write(data)
 # with open('README.md','rb') as file:
@@ -24,20 +23,32 @@ data1 = b'\xff\xfeh\x00e\x00l\x00l\x00o\x00'
 # j = read_yaml(path)
 # print(j['name'])
 
-text = "hello"
-import base64
-s = base64.b64encode(data1)
-t = text.encode('utf-16')
-=======
-import sys
+# text = "hello"
+# import base64
+# s = base64.b64encode(data1)
+# t = text.encode('utf-16')
 
-try:
-    x = 1/0
-except Exception as e:
+# import sys
 
-    type,value, tb = sys.exc_info()
+# try:
+#     x = 1/0
+# except Exception as e:
 
-print(type)
-print(value)
-print(tb.tb_frame.f_code.co_filename)
->>>>>>> d6c8ec6eb314978b44e6798bbd49de35a6b52581
+#     type,value, tb = sys.exc_info()
+
+# print(type)
+# print(value)
+# print(tb.tb_frame.f_code.co_filename)
+
+
+def square(x):
+    return x**2
+
+
+numbers = [1,2,3,4,5]
+
+# s = map(square, numbers)
+
+s = numbers.map(square)
+
+print(list(s))
