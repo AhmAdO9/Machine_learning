@@ -1,18 +1,14 @@
+from textSummarizer.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
+from logger import logging
 from exception import CustomException
 import sys
-<<<<<<< HEAD
-from logger import logging
-=======
 
->>>>>>> d6c8ec6eb314978b44e6798bbd49de35a6b52581
+STAGE_NAME = "Data Ingestiotn Stage" 
 
-try:
-    x = 1/0
-
+try: 
+   logging.info(f">>>>>> stage {STAGE_NAME} started <<<<<<<")
+   data_ingestion = DataIngestionTrainingPipeline()
+   data_ingestion.main()
+   logging.info(f">>>>> stage {STAGE_NAME} completed <<<<<<<< \n \n x==============x")
 except Exception as e:
-<<<<<<< HEAD
-    logging.info("raised an exception")
-=======
->>>>>>> d6c8ec6eb314978b44e6798bbd49de35a6b52581
     raise CustomException(e, sys)
-    

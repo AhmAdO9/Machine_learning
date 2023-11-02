@@ -46,7 +46,7 @@ def load_json(path:Path):
 
 
 @ensure_annotations
-def getsize(path:Path):
+def get_size(path:Path):
     return round(os.path.getsize(path)/1024)
 
 
