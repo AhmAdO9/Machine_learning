@@ -41,14 +41,28 @@
 # print(tb.tb_frame.f_code.co_filename)
 
 
-def square(x):
-    return x**2
+# def square(x):
+#     return x**2
 
 
-numbers = [1,2,3,4,5]
+# numbers = [1,2,3,4,5]
 
-# s = map(square, numbers)
+# # s = map(square, numbers)
 
-s = numbers.map(square)
+# s = numbers.map(square)
 
-print(list(s))
+# print(list(s))\\
+
+# num = [1,2,3,4,5,6,7,8,9,10]
+# for i in range(0, 10, 2):
+#     print(num[i:i+2])
+
+# s = "dfsdfs"
+# print((",".join(s)).split(","))
+
+a = [1,2,3]
+b =  [5,6,7]
+c = [8,9,0]
+
+for i,j,k in zip(a,b,c):
+    print(type(i))
